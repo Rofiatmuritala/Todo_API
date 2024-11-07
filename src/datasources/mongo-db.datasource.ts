@@ -10,7 +10,6 @@ const config = {
   database: 'todos',
   useNewUrlParser: true,
 };
-// sm72UzZyfS5WrYix;
 
 @lifeCycleObserver('datasource')
 export class MongoDbDataSource
