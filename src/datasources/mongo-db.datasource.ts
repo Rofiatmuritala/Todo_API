@@ -4,11 +4,9 @@ import {juggler} from '@loopback/repository';
 const config = {
   name: 'db',
   connector: 'mongodb',
-  url: 'mongodb+srv://Portfolio:5QQ9qXXjzXUuPcZD@cluster0.4bgugcc.mongodb.net/todoDb',
+  url: process.env.MONGODB_URL,
   host: '"localhost"',
   port: 27017,
-  user: 'Portfolio',
-  password: '5QQ9qXXjzXUuPcZD',
   database: 'todos',
   useNewUrlParser: true,
 };
